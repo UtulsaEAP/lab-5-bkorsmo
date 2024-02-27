@@ -1,7 +1,14 @@
-def swap_values(user_val1, user_val2, user_val3, user_val4):   
+def swap_values(user_input1, user_input2, user_input3, user_input4):   
    #write your code here
+   one = user_input1
+   two = user_input3
+   user_input1 == user_input2
+   user_input2 == one
+   user_input3 == user_input4
+   user_input4 == two
    
-   return user_val1, user_val2, user_val3, user_val4
+   
+   return user_input2, user_input1, user_input4, user_input3
 
 if __name__ == '__main__':   
    user_input1 = int(input())
@@ -10,5 +17,8 @@ if __name__ == '__main__':
    user_input4 = int(input())
    #store output for every input here
    #print those output
+   new = swap_values(user_input1, user_input2, user_input3, user_input4)
+   print(*new)
+   
 
  
