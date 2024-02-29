@@ -1,3 +1,10 @@
+'''
+Name: Brady Korsmo
+Date: Thursday @2
+'''
+
+
+
 def int_to_reverse_binary(user_input):
     binary_val = ''
 #write your while loop here
